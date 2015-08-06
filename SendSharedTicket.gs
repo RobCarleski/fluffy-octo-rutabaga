@@ -16,7 +16,7 @@ function Initialize(){
 function SendFormResults(e){
   try {
     /* Snag the email address to send to. In this test, we want the user filling out the form */
-    var email = "Collab.Shared.Account.Requests@umich.edu";
+    var email = '';
     
     /* Declare the variable we're going to use for the body of the ticket. */
     var message = "";
